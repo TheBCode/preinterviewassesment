@@ -5,3 +5,12 @@
 .card{
   width: 18rem;
 }
+
+.card-columns {
+@include media-breakpoint-only(lg) {
+  column-count: 3;
+}
+@include media-breakpoint-only(xl) {
+  column-count: 3;
+}
+}

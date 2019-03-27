@@ -32,18 +32,20 @@ class App extends Component {
     } else {
       return (
 
-          <div className="App container">
-            <div className="card">
-              <img className="card-img-top" src="darktiles_bg_gike55.jpg" alt="Card image cap"/>
-              <div className="card-body">
-                <h5 className="card-title">{items[0].Heading}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{items[0].Subheading}</h6>
-                <hr/>
-                <p className="card-text text-success">{items[0].Price}</p>
-              </div>
-            </div>
-          </div>
+          <div className="App container card-columns">
+              {items.map(item => (
+                  <div key={item.index} className="card">
+                    <img className="card-img-top" src="darktiles_bg_gike55.jpg" alt="Card image cap"/>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.Heading}</h5>
+                      <h6 className="card-subtitle mb-2 text-muted">{item.Subheading}</h6>
+                      <hr/>
+                      <p className="card-text text-success text-right">{item.Price}</p>
+                    </div>
+                  </div>
+              ))}
 
+          </div>
       );
     }
   }
