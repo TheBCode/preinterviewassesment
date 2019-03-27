@@ -2,6 +2,10 @@
   "name": "preinterviewassesment",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.7.0",
+    "node": "11.12herok.0"
+  },
   "homepage": "https://thebcode.github.io/preinterviewassesment/",
   "dependencies": {
     "bootstrap": "^4.3.1",
