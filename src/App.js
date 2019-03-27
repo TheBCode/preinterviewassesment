@@ -35,7 +35,7 @@ class App extends Component {
 
               <div className="row">{items.map(item => (
 
-                  <div key={item.index} className="card">
+                  <div key={item.index} className="card m-1">
                     <img className="card-img-top" src="darktiles_bg_gike55.jpg" alt="Card image cap"/>
                     <img className="card-img-top img-overlay" src="place_holder_zuvywg.png"/>
                     <div className="card-body">
