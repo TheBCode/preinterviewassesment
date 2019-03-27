@@ -4,7 +4,9 @@
   "private": true,
   "engines": {
     "npm": "6.7.0",
-    "node": "11.12herok.0"
+    "node": "11.12.0",
+    "yarn": "1.13.0"
+
   },
   "homepage": "https://thebcode.github.io/preinterviewassesment/",
   "dependencies": {
