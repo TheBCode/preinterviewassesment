@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b627cf599f0cff50a89b",
-    "url": "/preinterviewassesment/static/css/main.a1b246fa.chunk.css"
+    "revision": "ffb1a199957cd60f977c",
+    "url": "/preinterviewassesment/static/css/main.03bd72b6.chunk.css"
   },
   {
-    "revision": "b627cf599f0cff50a89b",
-    "url": "/preinterviewassesment/static/js/main.a4f194f0.chunk.js"
+    "revision": "ffb1a199957cd60f977c",
+    "url": "/preinterviewassesment/static/js/main.920f81c9.chunk.js"
   },
   {
     "revision": "63f8d27e9fe345d3cc48",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/preinterviewassesment/static/js/2.11986ed2.chunk.js"
   },
   {
-    "revision": "0a592a225f6bc69902df32c63684dff0",
+    "revision": "20c3920bf83b525bc6659979e722ae8c",
     "url": "/preinterviewassesment/index.html"
   }
 ];
